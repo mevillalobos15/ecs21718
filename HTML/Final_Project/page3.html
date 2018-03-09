@@ -31,6 +31,63 @@
       
       body { background: linear-gradient(to right, #fc00ff,#00dbde);}
       
+          * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #FC466B, #3F5EFB);
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+    font-family: Impact;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    width: 25%;
+    padding: 0 8px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+p { font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+}
+      
         </style>
     </head>
     <body>
@@ -54,5 +111,42 @@
     </div>
   </div>
 </nav>
+
+<!-- Header -->
+<div class="header">
+  <h1>These are my favorite memes.</h1>
+  <p>These are some of my favorite memes of ALL time. 
+  They are my favorite because I relate to them a lot. I believe that you need memes in your life. 
+  They make people laugh and laughing is something everyone should experience. Be happy by surrounding yourself with memes. </p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://pics.onsizzle.com/when-ur-gettin-roasted-cant-think-of-a-comeback-26953358.png" style="width:100%">
+    <img src="http://370g431nca8u23kfvb3cilkf.wpengine.netdna-cdn.com/wp-content/uploads/2013/05/6a0133f30ae399970b0192aa1b4c77970d-pi.jpg" style="width:100%">
+    <img src="http://wackymania.com/image/2013/03/the-best-baby-memes-of-all-time/the-best-baby-memes-of-all-time-07.jpg" style="width:100%">
+    <img src="https://fthmb.tqn.com/A3lqjRArOwFELj_6T3pVS1C3DeQ=/768x0/filters:no_upscale()/trump-face-56a755863df78cf77294b955.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/originals/07/eb/1b/07eb1b33976e662a5c9acf4ccaf63937.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/736x/5d/0e/2f/5d0e2f3c530834bc14710e00f5bb1474--your-best-friend-girls-best-friend.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/f5/4f/0e/f54f0ec405ab32506dfff1de2141da5e--funny-meme-pictures-funny-posts.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/4f/c1/1e/4fc11e882a9cda86c83be979daa47e76.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://i.pinimg.com/736x/2f/b8/61/2fb861b5899ed2baee9f29fafcd5a966--cute-owl-memes-animal-memes-cute.jpg" style="width:100%">
+    <img src="https://blog.praiseworthy.co/wp-content/uploads/2017/10/1397600871001.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/b8/f9/7a/b8f97a059ff7c6abe55ad9294b7b0c92.jpg" style="width:100%">
+    <img src="https://78.media.tumblr.com/de75f5d54fc7627c0f68498f8230a67c/tumblr_n4d9ypnkg81rn3lfqo1_500.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://pics.me.me/my-face-when-someone-says-taco-bell-is-real-mexican-14845276.png" style="width:100%">
+    <img src="https://i.pinimg.com/736x/9d/11/0a/9d110ae6e89e5adc0d1764d9b98cfa14--mexican-word-of-the-day-funny-mexican-words.jpg" style="width:100%">
+    <img src="https://4.bp.blogspot.com/-pFRXzhUqYb0/VZNw_h4OTCI/AAAAAAAAEVQ/S94m3_LRK0A/s320/FEARED%2BOR%2BLOVED.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/originals/35/e0/cc/35e0cc7bbda64b2dff2a2672f55b2e12.jpg" style="width:100%">
+  </div>
+</div>
+
     </body>
 </html>

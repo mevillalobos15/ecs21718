@@ -27,9 +27,51 @@
         padding: 15px;}
     }
     body { background: linear-gradient(to right, #16BFFD,#CB3066);}
+    
+  h1 { font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 60px;
+  }
+  
+    p { font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+  }
+  
+    p1 { font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+  }
+  
+     p2 { font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+  
+  }
+  
+     p3 { font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+  }
+  
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
         </style>
     </head>
     <body>
+
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -41,14 +83,50 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="https://preview.c9users.io/mevillalobos/ecs21718/HTML/Final_Project/index.html">Home</a></li>
-        <li><a href="https://preview.c9users.io/mevillalobos/ecs21718/HTML/Final_Project/page2.html">Favorite Artists</a></li>
-        <li><a href="https://preview.c9users.io/mevillalobos/ecs21718/HTML/Final_Project/page3.html">Favorite Memes</a></li>
-        <li><a href="https://preview.c9users.io/mevillalobos/ecs21718/HTML/Final_Project/page4.html">About Me</a></li>
-        <li><a href="https://preview.c9users.io/mevillalobos/ecs21718/HTML/Final_Project/page5.html">My Works</a></li>
+        <li><a href="https://mevillalobos15.github.io/ecs21718/HTML/Final_Project/index.html">Home</a></li>
+        <li><a href="https://mevillalobos15.github.io/ecs21718/HTML/Final_Project/page2.html">Favorite Artists</a></li>
+        <li><a href="https://mevillalobos15.github.io/ecs21718/HTML/Final_Project/page3.html">Favorite Memes</a></li>
+        <li><a href="https://mevillalobos15.github.io/ecs21718/HTML/Final_Project/page4.html">About Me</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">My Works<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="https://mevillalobos15.github.io/ecs21718/HTML/practice1.html">Practice1.html</a></li>
+          <li><a href="https://mevillalobos15.github.io/ecs21718/HTML/FavoriteAnimal3.html">FavoriteAnimal3.html</a></li>
+          <li><a href="https://mevillalobos15.github.io/ecs21718/HTML/table1.html">table1.html</a></li>
+          <li><a href="https://mevillalobos15.github.io/ecs21718/HTML/DropdownEx.html">DropdownEx.html</a></li>
+        </ul>
+      </li>
       </ul>
     </div>
   </div>
 </nav>
-    </body>
+
+<center><h1>About Me</h1></center><br>
+<center><p>Hey. My name is Maria Elena Villalobos. 
+I'm 14 years old, almost 15, and I was born and raised in Chicago, Illinois. 
+I was born into a Mexican family, 
+I am 1st generation American. Now I'll just put down random facts. My favorite color is purple, 
+my favorite sport is basketball, I like to make people laugh cause I think I'm pretty funny, and
+I find the brain very interesting. </p></center><br><br>
+
+
+   <div class="row">
+  <div class="column" style="background-color:clear;">
+    <p><b>My Old School</b></p>
+    <p1>The name of my old school was Charles G.<br> Hammond Elementary School.<br>
+I was in that school from Pre-K to 8th Grade.</p1><br>
+  <img class=img src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-1/p160x160/14642088_671949722981709_4527553823130169520_n.jpg?oh=b742fe86d373751d50b690c0611345e1&oe=5B41B9D0" alt="Lane Tech" style="width:300px;height:210px;margin-left:15px;">
+
+  </div>
+  <div class="column" style="background-color:clear;">
+    <p2><b>My Current School</b></p2><br>
+    <p3>As of now I am attending Lane Tech.<br> 
+    Whiich is such an accomplishment and I still can't believe I got in.
+</p3><br>
+<img class=img src="https://c1.staticflickr.com/9/8011/7707307184_3c85eaee19_b.jpg" alt="Lane Tech" style="width:300px;height:210px;margin-left:15px;">
+  </div>
+</div> 
+
+
+    
+   </body>
 </html>
